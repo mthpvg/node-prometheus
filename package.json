@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/mthpvg/node-prometheus#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "prom-client": "^10.2.2",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
